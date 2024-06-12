@@ -1,0 +1,87 @@
+body { background-color: violet;}
+
+.disp span {
+    display: none;
+}
+
+.disp { color: black;}
+
+@media screen and (max-width: 600px) {
+    .part1 { color: orangered;
+        font-size: 25%;
+    }
+
+    .part2 { color: red;
+        font-size: 25%;
+    }
+
+    .part3 { color: blue;
+        font-size: 25%;
+    }
+
+    .disp { font-size: 25%;}
+
+    .disp:after {
+        content: "Celular";
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .part1 { color: red;
+        font-size: 35%;
+    }
+
+    .part2 { color:green;
+        font-size: 35%;
+    }
+
+    .part3 { color:yellow;
+        font-size: 35%;
+    }
+
+    .disp { font-size: 35%;}
+
+    .disp:after {
+        content: "Celular/Tablet";
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .part1 { color: green;
+        font-size: 70%;
+    }
+
+    .part2 { color: red;
+        font-size: 70%;
+    }
+
+    .part3 { color: blueviolet;
+        font-size: 70%;
+    }
+
+    .disp { font-size: 70%;}
+
+    .disp:after {
+        content: "Tablet";
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .part1 { color: rebeccapurple;
+        font-size: 100%;
+    }
+
+    .part2 { color: darkturquoise;
+        font-size: 100%;
+    }
+
+    .part3 { color: orangered;
+        font-size: 100%;
+    }
+
+    .disp { font-size: 100%;}
+
+    .disp:after {
+        content: "Computador";
+    }
+}
