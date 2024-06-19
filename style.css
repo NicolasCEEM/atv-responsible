@@ -91,6 +91,8 @@ body { background-color: violet;}
 }
 
 .disp {
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-color: royalblue;
     border-style: groove;
     border-width: 5px;
